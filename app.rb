@@ -5,7 +5,7 @@ module FormsLab
 
     # code other routes/actions here
     get '/' do
-      
+
     end
 
     get '/new' do
@@ -16,6 +16,6 @@ module FormsLab
 
     end
 
-    
+
   end
 end
