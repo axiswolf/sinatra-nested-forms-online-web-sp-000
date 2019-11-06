@@ -1,7 +1,13 @@
 <h1>Make your form here</h1>
 <form action = "/new" method = "POST">
-  <p>Name:<input type = "text" id = "pirate[name]"></p>
-  <p>Weight:<input type = "text" id = "pirate[weight]"></p>
-  <p>Height:<input type = "text" id = "pirate[height]"></p>
+  <p>Name:<input type = "text" name = "pirate[name]"></p>
+  <p>Weight:<input type = "text" name = "pirate[weight]"></p>
+  <p>Height:<input type = "text" name = "pirate[height]"></p>
+  <p>Ship Name:<input type = "text" name = "pirate[ships][][name]"></p>
+  <p>Ship Type:<input type = "text" name = "pirate[ships][][type]"></p>
+  <p>Ship Booty:<input type = "text" name = "pirate[ships][][booty]"></p>
+  <p>Ship Name:<input type = "text" name = "pirate[ships][][name]"></p>
+  <p>Ship Type:<input type = "text" name = "pirate[ships][][type]"></p>
+  <p>Ship Booty:<input type = "text" name = "pirate[ships][][booty]"></p>
   <input type ="submit" value = "Submit">
 </form>
