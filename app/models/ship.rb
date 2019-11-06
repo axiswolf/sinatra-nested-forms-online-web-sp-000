@@ -12,4 +12,7 @@ class Ship
     @@ships
   end
 
+  def self.clear
+    @@ships = []
+  end
 end
